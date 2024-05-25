@@ -1,33 +1,84 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Inter;
 }
 
-body{
+body{font-family: inter;
     background-color:  hsl(0, 0%, 8%);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 24px;
+    height: 100vh;
+    font-family: 'Inter';
+}
+
+p{
+    color:  hsl(0, 0%, 70%);
 }
 
 .container{
-   
-    margin-inline: auto;
-    max-width: 400px;
+  transform: scale(0.75);
+    margin-top: 30px;
+    margin-bottom: 60px;
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin-inline: auto;  
     border: 1px solid black ;
     background-color: hsl(0, 0%, 12%);
     padding: 1rem;
     border-radius: 1rem;
-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
 }
+
 
 ul li{
     list-style: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     align-items: center;
 }
 
+.container h1{
+    text-align: center;
+}
 
+.container span{
+color:hsl(75, 94%, 57%) ;
+display: flex;
+justify-content: center; 
+
+}
+
+.container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+}
+ button{
+    color: white;
+    width:260px;
+    height: 50px;
+    border-radius: 0.75rem;
+    background-color:  hsl(0, 0%, 18%);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+  
+}
